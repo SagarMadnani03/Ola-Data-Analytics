@@ -1,0 +1,35 @@
+Ola Data Analyst:
+
+Steps:
+
+1. We have downloaded the dataset with the given prompt with help of ChatGPT.
+
+2. We have loaded the dataset in MySQL/MS-SQL and solved business problems which can give insights 
+
+3. From that loaded data, we have connected the dataset to PowerBI for dashboarding & reporting purpose to share the insights to stakeholders.
+
+-----------------
+
+Actual steps:
+
+1. We have cleaned our dataset using Excel by selecting all & removing duplicates in data tab
+
+2. After that, we have loaded the data in MS-SQL using Import flat files and imported the CSV file(prev. Excel file)
+
+3. Post which we have setup the SQL Server Authentication and solved business queries using SQL.
+
+4. After doing analysis, we have directly imported our data in Power BI from our SQL Server DB using SQL Server Creds.
+
+5. Post which the data was loaded successfully into Power BI.
+
+
+Challenges:
+
+In SQL server express edition, due to non availability of SSIS, the excel files can't be imported.
+It can only be done in Developer Version of SSMS.
+
+Hence, with the use of importing flat files/CSV, we converted our dataset in CSV from excel and then imported, and the record count comes out to be same.
+
+
+
+ 
